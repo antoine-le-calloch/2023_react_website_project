@@ -1,20 +1,21 @@
+import AOS from 'aos';
 import '../styles/pages/Home.css';
+import Title from "../components/Title";
 import InfoBand from "../components/InfoBand";
-import ScrollButton from "../components/ScrollButton";
+import {useEffect} from "react";
 
 const Home = () => {
+    useEffect(() => {
+        AOS.init({
+            duration: 2000
+        });
+    }, [])
     return (
         <div className="Home">
-            <div className="Home-desc-image">
-                <div className="Home-desc">
-                    <h1>Hi, my name is ANTOINE LE CALLOCH<br/>
-                        and I welcome you to my personal website
-                    </h1>
-                </div>
-                <div>
-                    <ScrollButton/>
-                </div>
-            </div>
+            <Title {...{
+                text: "Antoine LE CALLOCH",
+                subText: "Personal Website"
+            }} />
             <div className="Info_band_listes">
                 <InfoBand {...{
                     image: "/images/polytech_nice_sophia_noback.png",

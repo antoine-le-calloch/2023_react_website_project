@@ -1,11 +1,11 @@
 import Title from "../components/Title";
 
-const Projects = () => {
+const Education = () => {
     return (
         <div>
             <Title {...{
-                text: "Projects",
-                subText: "All my projects are listed above"
+                text: "Education",
+                subText: "My educational background"
             }} />
             <ul>
                 <il>
@@ -15,4 +15,4 @@ const Projects = () => {
     );
 };
 
-export default Projects;
+export default Education;
