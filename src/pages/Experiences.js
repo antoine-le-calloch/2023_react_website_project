@@ -7,10 +7,6 @@ const Experiences = () => {
                 text: "Experiences",
                 subText: "My personal working experiences"
             }} />
-            <ul>
-                <il>
-                </il>
-            </ul>
         </div>
     );
 };

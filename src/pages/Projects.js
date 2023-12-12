@@ -7,10 +7,6 @@ const Projects = () => {
                 text: "Projects",
                 subText: "All my projects are listed above"
             }} />
-            <ul>
-                <il>
-                </il>
-            </ul>
         </div>
     );
 };
