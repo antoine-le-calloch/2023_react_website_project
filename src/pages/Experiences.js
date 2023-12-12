@@ -1,7 +1,7 @@
-const Projects = () => {
+const Experiences = () => {
     return (
         <div>
-            <h1>Projects</h1>
+            <h1>Experiences</h1>
             <ul>
                 <il>
                 </il>
@@ -10,4 +10,4 @@ const Projects = () => {
     );
 };
 
-export default Projects;
+export default Experiences;
